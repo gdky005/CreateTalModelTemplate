@@ -8,6 +8,6 @@ public class NewWQ2 extends AnAction {
 
     @Override
     public void actionPerformed(AnActionEvent e) {
-        Utils.showNotify("NewWQ2");
+        Utils.showDialog("NewWQ2");
     }
 }

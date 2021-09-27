@@ -8,6 +8,6 @@ public class CreateTalModelTemplate extends AnAction {
 
     @Override
     public void actionPerformed(AnActionEvent e) {
-        Utils.showNotify("CreateTalModelTemplate");
+        Utils.showDialog("CreateTalModelTemplate");
     }
 }

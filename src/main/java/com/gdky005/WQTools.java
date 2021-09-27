@@ -8,6 +8,6 @@ public class WQTools extends AnAction {
 
     @Override
     public void actionPerformed(AnActionEvent e) {
-        Utils.showNotify("WQTools");
+        Utils.showDialog("WQTools");
     }
 }

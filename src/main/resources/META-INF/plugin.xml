@@ -21,6 +21,7 @@
             <add-to-group group-id="MainMenu" anchor="last"  />
             <action id="Myplugin.Textboxes" class="com.gdky005.TextBoxes" text="Text _Boxes" description="A test menu item" />
             <action id="wq.cd" class="com.gdky005.WQNew2" text="通知" description="通知" />
+            <action id="WQ.ACB" class="com.gdky005.ShowNotice" text="ShowNotice" description="ShowNotice"/>
         </group>
         <action id="wqer.erwq" class="com.gdky005.NewWQ1" text="new1 通知" description="new1 通知">
             <add-to-group group-id="EditMenu" anchor="first"/>
@@ -31,9 +32,6 @@
         </action>
         <action id="ewq.rewq" class="com.gdky005.New3WQ" text="New3WQ" description="New3WQ">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
-        </action>
-        <action id="wq.wer" class="com.gdky005.New4WQ" text="New4WQ" description="New4WQ">
-            <add-to-group group-id="ToolsMenu" anchor="before"/>
         </action>
         <action id="WQ.gdky005" class="com.gdky005.CreateTalModelTemplate" text="CreateTalCode"
                 description="CreateTalModelTemplate">
