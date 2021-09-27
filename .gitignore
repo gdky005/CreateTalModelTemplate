@@ -1,0 +1,10 @@
+*.iml
+.gradle
+.idea
+local.properties
+.DS_Store
+build
+captures
+
+# 忽略该文件，因为在构建项目的时候会自动生成
+app/agconnect-services.json

@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>org.example.untitled1</id>
+    <name>TestWQ</name>
+    <vendor email="741227905@qq.com" url="http://www.gdky005.com">孤独狂饮</vendor>
+
+    <description>
+        描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息描述信息
+    </description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <group id="MyPlugin.SampleMenu" text="_Sample Menu" description="Sample menu">
+            <add-to-group group-id="MainMenu" anchor="last"  />
+            <action id="Myplugin.Textboxes" class="com.gdky005.TextBoxes" text="Text _Boxes" description="A test menu item" />
+            <action id="wq.cd" class="com.gdky005.WQNew2" text="通知" description="通知" />
+        </group>
+    </actions>
+</idea-plugin>
