@@ -35,5 +35,9 @@
         <action id="wq.wer" class="com.gdky005.New4WQ" text="New4WQ" description="New4WQ">
             <add-to-group group-id="ToolsMenu" anchor="before"/>
         </action>
+        <action id="WQ.gdky005" class="com.gdky005.CreateTalModelTemplate" text="CreateTalCode"
+                description="CreateTalModelTemplate">
+            <add-to-group group-id="NewGroup" anchor="last"/>
+        </action>
     </actions>
 </idea-plugin>
