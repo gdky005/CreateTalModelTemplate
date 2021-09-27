@@ -8,4 +8,7 @@ public class Utils {
         Messages.showMessageDialog(info, "Utils", Messages.getInformationIcon());
     }
 
+    public static void showDialog(String info) {
+        Messages.showMessageDialog("Hello World !", "Information", Messages.getInformationIcon());
+    }
 }
