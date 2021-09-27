@@ -22,5 +22,18 @@
             <action id="Myplugin.Textboxes" class="com.gdky005.TextBoxes" text="Text _Boxes" description="A test menu item" />
             <action id="wq.cd" class="com.gdky005.WQNew2" text="通知" description="通知" />
         </group>
+        <action id="wqer.erwq" class="com.gdky005.NewWQ1" text="new1 通知" description="new1 通知">
+            <add-to-group group-id="EditMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="meta I"/>
+        </action>
+        <action id="erq.reqw" class="com.gdky005.NewWQ2" text="NewWQ2" description="NewWQ2">
+            <add-to-group group-id="BuildMenu" anchor="first"/>
+        </action>
+        <action id="ewq.rewq" class="com.gdky005.New3WQ" text="New3WQ" description="New3WQ">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+        <action id="wq.wer" class="com.gdky005.New4WQ" text="New4WQ" description="New4WQ">
+            <add-to-group group-id="ToolsMenu" anchor="before"/>
+        </action>
     </actions>
 </idea-plugin>
