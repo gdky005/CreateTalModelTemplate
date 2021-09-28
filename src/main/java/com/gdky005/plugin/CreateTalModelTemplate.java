@@ -1,13 +1,13 @@
-package com.gdky005;
+package com.gdky005.plugin;
 
 import com.gdky005.utils.Utils;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 
-public class WQTools extends AnAction {
+public class CreateTalModelTemplate extends AnAction {
 
     @Override
     public void actionPerformed(AnActionEvent e) {
-        Utils.showDialog("WQTools");
+        Utils.showDialog("CreateTalModelTemplate");
     }
 }

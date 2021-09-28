@@ -1,13 +1,14 @@
-package com.gdky005;
+package com.gdky005.plugin;
 
 import com.gdky005.utils.Utils;
+import com.intellij.notification.*;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 
-public class NewWQ2 extends AnAction {
+public class ShowNotice extends AnAction {
 
     @Override
     public void actionPerformed(AnActionEvent e) {
-        Utils.showDialog("NewWQ2");
+        Utils.showNotify("你好呀");
     }
 }

@@ -1,4 +1,4 @@
-package com.gdky005;
+package com.gdky005.other.test;
 
 import com.gdky005.utils.Utils;
 import com.intellij.openapi.actionSystem.AnAction;
