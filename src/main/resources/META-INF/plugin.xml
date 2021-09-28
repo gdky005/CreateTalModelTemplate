@@ -29,9 +29,9 @@
         <!-- Add your actions here -->
         <group id="MyPlugin.SampleMenu" text="_Sample Menu" description="Sample menu">
             <add-to-group group-id="MainMenu" anchor="last"  />
-            <action id="Myplugin.Textboxes" class="com.gdky005.plugin.TextBoxes" text="Text _Boxes" description="A test menu item" />
+            <action id="Myplugin.Textboxes" class="com.gdky005.other.TextBoxes" text="Text _Boxes" description="A test menu item" />
             <action id="wq.cd" class="com.gdky005.other.test.WQNew2" text="通知" description="通知" />
-            <action id="WQ.ACB" class="com.gdky005.plugin.ShowNotice" text="ShowNotice" description="ShowNotice"/>
+            <action id="WQ.ACB" class="com.gdky005.other.ShowNotice" text="ShowNotice" description="ShowNotice"/>
         </group>
         <action id="wqer.erwq" class="com.gdky005.other.test.NewWQ1" text="new1 通知" description="new1 通知">
             <add-to-group group-id="EditMenu" anchor="first"/>
@@ -43,7 +43,7 @@
         <action id="ewq.rewq" class="com.gdky005.other.test.New3WQ" text="New3WQ" description="New3WQ">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </action>
-        <action id="WQ.gdky005" class="com.gdky005.plugin.CreateTalModelTemplate" text="CreateTalCode"
+        <action id="WQ.gdky005" class="com.gdky005.plugin.CreateTalModelTemplate1" text="CreateTalCode"
                 description="CreateTalModelTemplate">
             <add-to-group group-id="NewGroup" anchor="last"/>
         </action>
@@ -51,8 +51,19 @@
         <!--创建一个新组，专门存放组件-->
         <group id="WQPlugin" text="_WQ Menu" description="WQ Menu">
             <add-to-group group-id="MainMenu" anchor="last"  />
-            <action id="wq.shownName" class="com.gdky005.plugin.wq.ShowName" text="欢迎" description="欢迎，展示你的名字。"/>
+            <action id="wq.shownName" class="com.gdky005.plugin.wq.ShowName" text="Welcome" description="Show your name."/>
+
+            <action id="wq.CreateNewModelTemplate" class="com.gdky005.plugin.wq.CreateNewModelTemplate"
+                    text="CreateNewModelTemplate" description="CreateNewModelTemplate"/>
+
+            <action id="wq.ShowNotice" class="com.gdky005.plugin.wq.ShowNotice" text="ShowNotice" description="ShowNotice"/>
+
         </group>
+
+        <action id="wq.CreateNewModelTemplate" class="com.gdky005.plugin.wq.CreateNewModelTemplate"
+                text="CreateNewModelTemplate" description="CreateNewModelTemplate">
+            <add-to-group group-id="NewGroup" anchor="last"/>
+        </action>
 
     </actions>
 </idea-plugin>

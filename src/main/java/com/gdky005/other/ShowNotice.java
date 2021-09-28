@@ -1,4 +1,4 @@
-package com.gdky005.plugin;
+package com.gdky005.other;
 
 import com.gdky005.utils.Utils;
 import com.intellij.notification.*;

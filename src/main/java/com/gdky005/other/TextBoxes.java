@@ -1,4 +1,4 @@
-package com.gdky005.plugin;
+package com.gdky005.other;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
